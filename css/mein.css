@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f3;
+    font-family: poppins;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.brend-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brend-title {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+label,
+input,
+button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+input::placeholder {
+    color: gray;
+  }
+input{
+    height: 50px;
+    border-radius:50px;
+    font-size: 16px;
+    padding: 10px;
+padding-left: 20px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    outline: transparent;
+}  
+button{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color:#FFFF;
+    border-radius:50px;  
+    background-color: #1DA1F2; 
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+  }
+
+button:hover {
+    box-shadow: none;
+  }
+  .link{
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 8px;
+    bottom: 4px;
+    right: 4px;
+    color:#000;
+    padding: 4px;
+    background:#ffff00;
+    border: 1px solid transparent;
+    border-radius: 10px;   
+}
